@@ -119,16 +119,15 @@ int main() {
 編譯與執行指令
 
 ```shell
-$ g++ -std=c++17 -o ackermann ackermann.cpp
-$ ./ackermann
-輸入 m 和 n: 1 1
-遞迴結果: 3
+$ g++ -std=c++17 -o polynomial polynomial.cpp
+$ ./polynomial
+在 x=2 時的和: 10
 ```
 
 ### 結論
 
-程式正確計算小值情況下的 Ackermann 函數。由於增長極快， m, n  應保持小值，驗證與定義一致。
+程式能正確加多項式並評估值，乘法還得再優化。測試涵蓋了基本和邊界情況，結果沒問題。
 
 ### 心得
 
-透過實現 Ackermann 函數，我體會到遞迴的強大與限制。
+做這個Polynomial類讓我學會處理多項式加法和評估，乘法有點難還得練。
