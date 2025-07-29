@@ -92,8 +92,8 @@ public:
 
 int main() {
     Polynomial p1, p2;
-    p1.termArray[0] = Term(2, 2); p1.terms = 1; // 2x^2
-    p2.termArray[0] = Term(3, 1); p2.terms = 1; // 3x
+    p1.termArray[0] = Term(2, 2); p1.terms = 1; 
+    p2.termArray[0] = Term(3, 1); p2.terms = 1; 
     Polynomial sum = p1.Add(p2);
     cout << "在 x=2 時的和: " << sum.Eval(2) << endl;
     return 0;
